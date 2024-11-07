@@ -1,0 +1,59 @@
+/* Reset básico para todos los elementos */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elimina subrayado y color de enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Configuración básica para el documento */
+html, body {
+    height: 100%;
+    font-size: 100%;
+    line-height: 1.15;
+    font-family: sans-serif;
+}
+
+/* Elementos de bloque */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+/* Listas sin estilo de viñetas */
+ul, ol {
+    list-style: none;
+}
+
+/* Imágenes responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Tablas sin espaciado entre celdas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Inputs y botones sin estilos predeterminados */
+button, input, select, textarea {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    appearance: none;
+}
+
+/* Sin outline al enfocar, para personalización */
+button:focus, input:focus, select:focus, textarea:focus {
+    outline: none;
+}
